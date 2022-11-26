@@ -1,0 +1,202 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient(to right, rgb(255, 120, 255), rgb(162, 146, 255)); */
+    background: linear-gradient(to right, rgb(21, 32, 64), rgb(178,164,190));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* .login-card{
+    width: 400px;
+    background: rgba(255, 255, 255, 0.438);
+    padding: 4rem;
+    border-radius: 20px;
+    position: relative;
+} */
+
+.login-card{
+    background: rgba(253, 253, 253, 0.315);
+    border-radius: 20px;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    /* position: relative; */
+    border-width: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.login-logo img{
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    /* margin: auto;
+    display: block; */
+    display: flex;
+    margin: auto;
+    
+    /* box-shadow: 0 0 100px black; */
+    /* padding-left: auto; */
+}
+
+.sign-in-text{
+    margin-top: 1.5rem;
+    margin-bottom: 0.1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.sign-in-description-text{
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    opacity: .8;
+    text-align: center;
+}
+
+
+.inputs{
+    text-align: center;
+    
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 15px;
+    border-radius: 100px;
+    border-width: 0px;
+    background-color: rgba(15, 15, 15, 0.13);
+    outline: none;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus{
+    background-color: rgba(15, 15, 15, 0.267);
+}
+
+
+
+input[type="password"]{
+    width: 70%;
+    padding: 15px;
+    border-radius: 100px;
+    border-width: 0px;
+    background-color: rgba(15, 15, 15, 0.13);
+    outline: none;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+input[type="password"]:focus{
+    background-color: rgba(15, 15, 15, 0.267);
+}
+
+
+
+.radio-button{
+    width: 100%;
+    /* margin-left: 60px;
+    margin-right: 60px; */
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    /* padding-left: auto;
+    padding-right: auto; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+input[type="checkbox"]{
+    accent-color: black;
+    
+}
+
+
+.forgot-password a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(5, 40, 145);
+}
+
+.forgot-password a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+.sign-in-button button{
+    width: 80%;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 15px;
+    border-radius: 100px;
+    border-width: 0px;
+    text-align: center;
+    transition: background 0.5s;
+    /* position: relative; */
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+
+.sign-in-button button:hover{
+    background-color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+}
+
+.sign-in{
+    display: flex;
+    margin: auto;
+}
+
+.create-account{
+    width: 100%;
+    /* margin-left: 60px;
+    margin-right: 60px; */
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    gap:7%;
+}
+
+.create-account a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(5, 40, 145);
+    
+}
+
+.create-account a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: rgb(134, 134, 185);
+    border-radius: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(106, 104, 121);
+    border-radius: 100px;
+  }
